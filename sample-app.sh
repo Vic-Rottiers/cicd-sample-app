@@ -2,7 +2,7 @@
 set -euo pipefail
 
 if [ -d "/tempdir" ]
-  rm -rf tempdir
+  rm -rf /tempdir
 fi
 
 mkdir tempdir
