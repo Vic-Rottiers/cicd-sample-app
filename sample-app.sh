@@ -1,7 +1,7 @@
 #!/bin/bash
 set -euo pipefail
 
-if [ -d "tempdir" ]
+if [ -d "/tempdir" ]
   rm -rf tempdir
 fi
 
