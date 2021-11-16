@@ -4,6 +4,7 @@ set -euo pipefail
 if [ -d "tempdir" ]
   rm -rf tempdir
 fi
+
 mkdir tempdir
 mkdir tempdir/templates
 mkdir tempdir/static
