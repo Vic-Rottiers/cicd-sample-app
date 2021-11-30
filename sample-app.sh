@@ -1,10 +1,10 @@
 #!/bin/bash
 set -euo pipefail
 
-echo 'Stopping previous sampleapp (samplerunning) container'
-docker stop samplerunning
-echo 'Deleting previous sampleapp (samplerunning) container'
-docker container rm samplerunning
+#echo 'Stopping previous sampleapp (samplerunning) container'
+#docker stop samplerunning
+#echo 'Deleting previous sampleapp (samplerunning) container'
+#docker container rm samplerunning
 
 rm -rf tempdir
 
