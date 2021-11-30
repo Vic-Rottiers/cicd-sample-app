@@ -1,6 +1,8 @@
 #!/bin/bash
 set -euo pipefail
 
+docker container rm samplerunning
+
 rm -rf tempdir
 
 mkdir tempdir
