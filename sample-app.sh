@@ -1,8 +1,8 @@
 #!/bin/bash
 set -euo pipefail
 
-echo 'Halting previous sampleapp (samplerunning) container'
-docker halt samplerunning
+echo 'Stopping previous sampleapp (samplerunning) container'
+docker stop samplerunning
 echo 'Deleting previous sampleapp (samplerunning) container'
 docker container rm samplerunning
 
