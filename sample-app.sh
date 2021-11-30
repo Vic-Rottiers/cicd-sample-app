@@ -1,7 +1,7 @@
 #!/bin/bash
 set -euo pipefail
 
-echo Deleting previous samplapp (samplerunning) container
+echo 'Deleting previous samplapp (samplerunning) container'
 docker container rm samplerunning
 
 rm -rf tempdir
